@@ -1,1 +1,1 @@
-colorscheme distinguished
+"colorscheme distinguished"
