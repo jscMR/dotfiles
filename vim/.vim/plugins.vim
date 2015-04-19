@@ -2,7 +2,7 @@
 " Configuration goes in the appropriate modules/plugins/*.vim file.
 " So configuration for tmux.vim would go in modules/plugins/tmux.vim.vim
 
-Plug 'FelikZ/ctrlp-py-matcher'
+"Plug 'FelikZ/ctrlp-py-matcher'
 Plug 'Keithbsmiley/tmux.vim'
 Plug 'Lokaltog/vim-distinguished'
 Plug 'Lokaltog/vim-easymotion', { 'on': '<Plug>(easymotion-prefix)' }
@@ -43,4 +43,4 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-vinegar'
 Plug 'vim-scripts/paredit.vim', { 'for': 'clojure' }
-Plug 'walm/jshint.vim', { 'on': 'JSHint' }
+Plug 'walm/jshint.vim', { 'on': 'JSHint' }"
