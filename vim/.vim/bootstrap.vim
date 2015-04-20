@@ -1,7 +1,8 @@
 " Make Vim more useful. This should always be your first configuration line.
 set nocompatible
 colorscheme distinguished
-
+"Spell disable"
+set nospell
 " Wraps paths to make them relative to this directory.
 function! Dot(path)
   return '~/.vim/' . a:path
