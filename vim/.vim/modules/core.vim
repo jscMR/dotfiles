@@ -26,3 +26,7 @@ set completeopt-=preview
 
 " Make session files minimal.
 set sessionoptions=blank,curdir,folds,help,tabpages,winsize
+
+" Make run NERDTree on startup
+autocmd VimEnter * NERDTree
+autocmd VimEnter * wincmd p
